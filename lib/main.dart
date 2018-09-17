@@ -6,6 +6,7 @@ class SampleChatApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      theme: ThemeData.dark(),
       title: 'SampleChatApp',
       home: new ChatScreen(),
     );
